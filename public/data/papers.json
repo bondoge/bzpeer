@@ -1,0 +1,217 @@
+{
+  "papers": [
+    {
+      "id": "paper_001",
+      "title": "Neural Manifold Dynamics in Motor Cortex During Voluntary Movement",
+      "year": 2024,
+      "doi": "10.1038/s41593-024-01234-5",
+      "color": "#5B8CFF",
+      "venue": "Nature Neuroscience",
+      "abstract": "We characterize low-dimensional neural manifolds underlying motor cortex population activity during complex voluntary movements, revealing stable geometric structure across subjects.",
+      "referencedPaperIds": []
+    },
+    {
+      "id": "paper_002",
+      "title": "Transformer Architectures for Neural Population Decoding",
+      "year": 2024,
+      "doi": "10.1016/j.neuron.2024.05.021",
+      "color": "#F97316",
+      "venue": "Neuron",
+      "abstract": "We introduce NeuroFormer, a transformer-based architecture for decoding motor intentions from large-scale neural recordings with state-of-the-art generalization across sessions.",
+      "referencedPaperIds": ["paper_001"]
+    },
+    {
+      "id": "paper_003",
+      "title": "Closed-Loop Cortical Stimulation for Motor Recovery after Stroke",
+      "year": 2023,
+      "doi": "10.1126/science.adg4128",
+      "color": "#EF4444",
+      "venue": "Science",
+      "abstract": "A closed-loop brain-computer interface delivering contingent cortical stimulation during voluntary movement attempts accelerates motor recovery in a randomized controlled trial.",
+      "referencedPaperIds": ["paper_001"]
+    },
+    {
+      "id": "paper_004",
+      "title": "Hippocampal Theta Oscillations Gate Synaptic Plasticity During Memory Consolidation",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06847-2",
+      "color": "#22C55E",
+      "venue": "Nature",
+      "abstract": "Theta-phase-specific synaptic tagging in hippocampal CA1 circuits determines which experiences are consolidated into long-term memory during subsequent sleep.",
+      "referencedPaperIds": []
+    },
+    {
+      "id": "paper_005",
+      "title": "Large-Scale Population Coding in Prefrontal Circuits During Working Memory",
+      "year": 2024,
+      "doi": "10.1016/j.cell.2024.03.015",
+      "color": "#A855F7",
+      "venue": "Cell",
+      "abstract": "Simultaneous recordings from thousands of prefrontal neurons reveal distributed coding schemes that challenge attractor models of working memory maintenance.",
+      "referencedPaperIds": ["paper_001", "paper_003"]
+    },
+    {
+      "id": "paper_006",
+      "title": "Adaptive Brain-Computer Interface with Continual Online Learning",
+      "year": 2025,
+      "doi": "10.1038/s41551-025-00312-x",
+      "color": "#06B6D4",
+      "venue": "Nature Biomedical Engineering",
+      "abstract": "A fully implantable BCI that continuously adapts its decoder to non-stationary neural signals achieves unprecedented long-term stability across months of operation.",
+      "referencedPaperIds": ["paper_002", "paper_003"]
+    }
+  ],
+  "institutions": [
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "country": "United States",
+      "lat": 42.3601,
+      "lon": -71.0942
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford University",
+      "city": "Stanford",
+      "country": "United States",
+      "lat": 37.4275,
+      "lon": -122.1697
+    },
+    {
+      "id": "ucb",
+      "name": "University of California, Berkeley",
+      "city": "Berkeley",
+      "country": "United States",
+      "lat": 37.8724,
+      "lon": -122.2595
+    },
+    {
+      "id": "ucsf",
+      "name": "University of California, San Francisco",
+      "city": "San Francisco",
+      "country": "United States",
+      "lat": 37.7631,
+      "lon": -122.4586
+    },
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "city": "Cambridge",
+      "country": "United States",
+      "lat": 42.3770,
+      "lon": -71.1167
+    },
+    {
+      "id": "broad",
+      "name": "Broad Institute of MIT and Harvard",
+      "city": "Cambridge",
+      "country": "United States",
+      "lat": 42.3647,
+      "lon": -71.0929
+    },
+    {
+      "id": "ucl",
+      "name": "University College London",
+      "city": "London",
+      "country": "United Kingdom",
+      "lat": 51.5246,
+      "lon": -0.1340
+    },
+    {
+      "id": "eth",
+      "name": "ETH Zurich",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "lat": 47.3769,
+      "lon": 8.5417
+    },
+    {
+      "id": "max_planck",
+      "name": "Max Planck Institute for Biological Intelligence",
+      "city": "Martinsried",
+      "country": "Germany",
+      "lat": 48.1088,
+      "lon": 11.4620
+    },
+    {
+      "id": "tokyo",
+      "name": "University of Tokyo",
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.7127,
+      "lon": 139.7619
+    },
+    {
+      "id": "allen",
+      "name": "Allen Institute for Brain Science",
+      "city": "Seattle",
+      "country": "United States",
+      "lat": 47.6062,
+      "lon": -122.3321
+    },
+    {
+      "id": "cmu",
+      "name": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "country": "United States",
+      "lat": 40.4433,
+      "lon": -79.9436
+    }
+  ],
+  "authors": [
+    { "id": "alice_chen",       "name": "Alice Chen" },
+    { "id": "james_wilson",     "name": "James Wilson" },
+    { "id": "sarah_rodriguez",  "name": "Sarah Rodríguez" },
+    { "id": "thomas_mayer",     "name": "Thomas Mayer" },
+    { "id": "priya_patel",      "name": "Priya Patel" },
+    { "id": "michael_green",    "name": "Michael Green" },
+    { "id": "liu_wei",          "name": "Wei Liu" },
+    { "id": "david_kim",        "name": "David Kim" },
+    { "id": "emma_walsh",       "name": "Emma Walsh" },
+    { "id": "carlos_reyes",     "name": "Carlos Reyes" },
+    { "id": "fatima_al_rashid", "name": "Fatima Al-Rashid" },
+    { "id": "nikolai_petrov",   "name": "Nikolai Petrov" },
+    { "id": "isabelle_dubois",  "name": "Isabelle Dubois" },
+    { "id": "yuki_tanaka",      "name": "Yuki Tanaka" },
+    { "id": "robert_frost",     "name": "Robert Frost" },
+    { "id": "daniel_okonkwo",   "name": "Daniel Okonkwo" },
+    { "id": "ana_silva",        "name": "Ana Silva" },
+    { "id": "kenji_nakamura",   "name": "Kenji Nakamura" }
+  ],
+  "authorships": [
+    { "paperId": "paper_001", "authorId": "alice_chen",      "institutionId": "mit",       "authorPosition": 1 },
+    { "paperId": "paper_001", "authorId": "james_wilson",    "institutionId": "stanford",  "authorPosition": 2 },
+    { "paperId": "paper_001", "authorId": "sarah_rodriguez", "institutionId": "harvard",   "authorPosition": 3 },
+    { "paperId": "paper_001", "authorId": "thomas_mayer",    "institutionId": "broad",     "authorPosition": 4 },
+    { "paperId": "paper_001", "authorId": "priya_patel",     "institutionId": "mit",       "authorPosition": 5 },
+
+    { "paperId": "paper_002", "authorId": "michael_green",   "institutionId": "stanford",  "authorPosition": 1 },
+    { "paperId": "paper_002", "authorId": "alice_chen",      "institutionId": "mit",       "authorPosition": 2 },
+    { "paperId": "paper_002", "authorId": "liu_wei",         "institutionId": "ucb",       "authorPosition": 3 },
+    { "paperId": "paper_002", "authorId": "david_kim",       "institutionId": "cmu",       "authorPosition": 4 },
+    { "paperId": "paper_002", "authorId": "emma_walsh",      "institutionId": "allen",     "authorPosition": 5 },
+
+    { "paperId": "paper_003", "authorId": "carlos_reyes",    "institutionId": "stanford",  "authorPosition": 1 },
+    { "paperId": "paper_003", "authorId": "fatima_al_rashid","institutionId": "ucsf",      "authorPosition": 2 },
+    { "paperId": "paper_003", "authorId": "james_wilson",    "institutionId": "stanford",  "authorPosition": 3 },
+    { "paperId": "paper_003", "authorId": "nikolai_petrov",  "institutionId": "mit",       "authorPosition": 4 },
+
+    { "paperId": "paper_004", "authorId": "emma_walsh",      "institutionId": "ucl",       "authorPosition": 1 },
+    { "paperId": "paper_004", "authorId": "thomas_mayer",    "institutionId": "eth",       "authorPosition": 2 },
+    { "paperId": "paper_004", "authorId": "isabelle_dubois", "institutionId": "eth",       "authorPosition": 3 },
+    { "paperId": "paper_004", "authorId": "yuki_tanaka",     "institutionId": "max_planck","authorPosition": 4 },
+    { "paperId": "paper_004", "authorId": "robert_frost",    "institutionId": "harvard",   "authorPosition": 5 },
+
+    { "paperId": "paper_005", "authorId": "priya_patel",     "institutionId": "harvard",   "authorPosition": 1 },
+    { "paperId": "paper_005", "authorId": "daniel_okonkwo",  "institutionId": "mit",       "authorPosition": 2 },
+    { "paperId": "paper_005", "authorId": "james_wilson",    "institutionId": "stanford",  "authorPosition": 3 },
+    { "paperId": "paper_005", "authorId": "ana_silva",       "institutionId": "allen",     "authorPosition": 4 },
+
+    { "paperId": "paper_006", "authorId": "kenji_nakamura",  "institutionId": "ucsf",      "authorPosition": 1 },
+    { "paperId": "paper_006", "authorId": "yuki_tanaka",     "institutionId": "tokyo",     "authorPosition": 2 },
+    { "paperId": "paper_006", "authorId": "carlos_reyes",    "institutionId": "cmu",       "authorPosition": 3 },
+    { "paperId": "paper_006", "authorId": "david_kim",       "institutionId": "stanford",  "authorPosition": 4 },
+    { "paperId": "paper_006", "authorId": "liu_wei",         "institutionId": "ucb",       "authorPosition": 5 }
+  ]
+}
